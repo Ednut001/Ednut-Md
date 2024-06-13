@@ -80,7 +80,7 @@ smd({ on: "text" }, async (message, text, { icmd }) => {
       )
     )
       message.bot.sendPresenceUpdate(waPresence, message.from);
-    if (message.isEdnut && !message.fromMe && !message.text.startsWith("$"))
+    if (message.isAstro && !message.fromMe && !message.text.startsWith("$"))
       message.react("🕊");
   } catch (e) {
     console.log(e);
