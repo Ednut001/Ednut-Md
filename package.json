@@ -7,7 +7,7 @@
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name Ednut-md|| node .",
       "ragnarok": "pm2 start . --deep-monitoring --attach --name Ednut-bot || node .",
-      "start": "pm2 start . --attach --name Ragnarok",
+      "start": "pm2 start . --attach --name Ednut-Md",
       "stop": "pm2 stop Ednut-Md",
       "heroku-postbuild": "git clone https://github.com/Ednut001/Ednut-Md-md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/Ednut001/Ednut-md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
