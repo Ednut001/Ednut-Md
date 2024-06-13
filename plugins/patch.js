@@ -370,7 +370,7 @@ ${menuThemeFooter}
         caption: menuText
       };
       //return await Void.sendMessage(message.chat, menuText);
-      return await message.bot.sendUi(menuText)
+      return await message.sendUi(menuText)
     } catch (error) {
       await message.error(error + "\nCommand: menu", error);
     }
