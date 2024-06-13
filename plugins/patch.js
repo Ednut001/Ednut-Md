@@ -263,33 +263,33 @@ astro_patch.smd(
         Config.menu.trim().startsWith("1") ||
         Config.menu.toLowerCase().includes("menu1")
       ) {
-        menuThemeHeader = "╭═══ *EDNUT-MD* ═══⊷\n┃❃╭──────────────";
+        menuThemeHeader = "╭═══ *EDNUT-MD* ═══⊷\n┃❃╭──────────────✘";
         menuThemeCommandPrefix = "   │";
-        menuThemeFooter = "┃❃╰───────────────\n╰═════════════════⊷";
+        menuThemeFooter = "┃❃╰───────────────✘\n╰═════════════════✘";
         menuThemeCategoryHeader = "╭─❏";
         menuThemeCategoryFooter = "❏";
         menuThemeCommandPrefix = "   │";
-        menuThemeCommandFooter = "   ╰───────────────── ";
+        menuThemeCommandFooter = "   ╰─────────────────✘ ";
       } else if (
         menuThemeType === 2 ||
         Config.menu.trim().startsWith("2") ||
         Config.menu.toLowerCase().includes("menu2")
       ) {
-        menuThemeHeader = "╭═══ *EDNUT-MD* ═══⊷\n┃❃╭──────────────";
+        menuThemeHeader = "╭═══ *EDNUT-MD* ═══⊷\n┃❃╭──────────────✘";
         menuThemeCommandPrefix = "   │";
-        menuThemeFooter = "┃❃╰───────────────\n╰═════════════════⊷";
+        menuThemeFooter = "┃❃╰───────────────\n╰═════════════════✘";
         menuThemeCategoryHeader = "╭─❏";
         menuThemeCategoryFooter = "❏";
         menuThemeCommandPrefix = "   │";
-        menuThemeCommandFooter = "   ╰───────────────── ";
+        menuThemeCommandFooter = "   ╰─────────────────✘ ";
       } else {
-        menuThemeHeader = "╭═══ *EDNUT-MD* ═══⊷\n┃❃╭──────────────";
+        menuThemeHeader = "╭═══ *EDNUT-MD* ═══⊷\n┃❃╭──────────────✘";
         menuThemeCommandPrefix = "   │";
-        menuThemeFooter = "┃❃╰───────────────\n╰═════════════════⊷";
+        menuThemeFooter = "┃❃╰───────────────✘\n╰═════════════════✘";
         menuThemeCategoryHeader = "╭─❏";
         menuThemeCategoryFooter = "❏";
         menuThemeCommandPrefix = "   │";
-        menuThemeCommandFooter = "   ╰───────────────── ";
+        menuThemeCommandFooter = "   ╰─────────────────✘ ";
       }
 
       const categorizedCommands = {};
@@ -326,13 +326,12 @@ ${menuThemeFooter}
 ┃✯│Prefix: ${Config.HANDLERS}
 ┃✯│User: ${Config.ownername}
 ┃✯│ᴛɪᴍᴇ: ${currentTime}
-┃✯│Day: ;-;
 ┃✯│ᴅᴀᴛᴇ: ${currentDate}
 ┃✯│Version: 1.0.0
-┃✯│Plugins: 300+
+┃✯│Plugins: 400+
 ┃✯│Ram: ${formatp(os.totalmem() - os.freemem())} 
 ┃✯│Uptime: ${runtime(process.uptime())}
-|✯|Developer : Ednut
+┃✯|Maintainer: Ednut001
 ┃✯╰─────────✘
 ╰═════════════════✘
       `
