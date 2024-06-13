@@ -203,7 +203,7 @@ astro_patch.smd(
   {
     cmdname: "menu",
     desc: "Help list",
-    react: "🥵",
+    react: "🕊",
     desc: "To show all avaiable commands.",
     type: "user",
     filename: __filename,
@@ -370,7 +370,7 @@ ${menuThemeFooter}
         caption: menuText
       };
       //return await Void.sendMessage(message.chat, menuText);
-      return await message.send(menuText)
+      return await message.bot.sendUi(menuText)
     } catch (error) {
       await message.error(error + "\nCommand: menu", error);
     }
