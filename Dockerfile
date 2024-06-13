@@ -1,4 +1,4 @@
-FROM quay.io/sampandey001/secktor
+FROM quay.io/taira_makino/taira_tech
 
 RUN git clone https://github.com/Ednut001/Ednut-md /root/Anonphoenix007
 
