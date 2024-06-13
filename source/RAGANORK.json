@@ -1,0 +1,54 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "Taira Makino",
+    "theme": "RAGNAROK",
+    "LANGUAGE": "English",
+    "LANGCODE": "en",  
+    "STRINGS": { 
+        "updater": { 
+            "UPDATE": "Your Bot is up to date.",
+            "UPDATED_LOCAL": "Your bot was successfully updated"
+        },  
+        "global": {      
+            "botName": "ʀᴀɢɴᴀʀᴏᴋ-ᴍᴅ",
+            "body": "Easy to Use WhatsApp bot", 
+            "greet2" : "Hello 👋 ",
+            "pic1": "https://telegra.ph/file/ab29a1e02a41b726af258.jpg", 
+            "pic2": "https://telegra.ph/file/7dc6cdd80fe50528b53de.jpg", 
+            "pic3": "https://telegra.ph/file/f3ed6aa19273d9aca1c50.jpg", 
+            "pic4": "https://telegra.ph/file/298bb3ae76683baa97262.jpg", 
+            "pic5": "https://telegra.ph/file/03c439d4d067ec3e09271.jpg", 
+            "pic6": "https://telegra.ph/file/44740945a6467b7b9832b.jpg", 
+            "pic7": "https://telegra.ph/file/71b4a40f8bf431f6acb92.jpg",
+            "greet" : "Hey there 😊",
+            "dotbody" : "Special greetings to you Taira-San 👋.",
+            "emojii" : "🦄", 
+            "promote": "ʀᴀɢɴᴀʀᴏᴋ-ᴍᴅ is now an Admin",
+            "pmallow": "Hello &user Do not Spam please",
+            "permited": "You are now allowed to message me.", 
+            "revoked" : "Permission to send messages have been revoked.",
+            "demote": "User demoted 🫳🎤 ",
+            "antlink": "*Link Detected🚫*.\n*Link sender will be kicked.*",
+            "session": "\n Do not share with anyone 🙂.",
+            "mention": "Tag my owner",
+            "title": "ʀᴀɢɴᴀʀᴏᴋ-ᴍᴅ",
+            "footer": "ʀᴀɢɴᴀʀᴏᴋ-ᴍᴅ",
+            "by": "By: Taira Makino",
+            "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Success (¬_¬)ﾉ",
+            "dot": "Hi, Did you mean *.help?*\n Because I am offline and on DnD🥲.",
+            "couple_male": "*I'm pretty sure I can't live without being helped!*",
+            "couple_female": "*I'm pretty sure I can't live without being helped!*",
+            "admin": "I need to be promoted to use this command 😢.",
+            "botAdmin": "Make me an Admin to take action.",
+            "owner": "You are not allowed to use this command 😒.",
+            "group": "Group command ,will not work here 🌚.",
+            "private": "Only my owner can use this command 🌚.",
+            "bot": "Hey &user,owner command only.",
+            "wait": "Take some chill pills,Processing result ....."
+        },
+        "error": {
+            "text": "Dont touch me."
+        }
+    } 
+  }
