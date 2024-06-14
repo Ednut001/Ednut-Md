@@ -3,12 +3,12 @@ const { exec } = require("child_process");
 const fs = require("fs");
 async function audioEditor(_0x1ef339, _0x567a0f = "bass", _0x730356 = "") {
   if (!_0x1ef339.quoted) {
-    return await _0x1ef339.send("*_Uhh Dear, Reply to audio!!!_*");
+    return await _0x1ef339.send("kindly, Reply to audio!!!");
   }
   let _0x1e4c20 = _0x1ef339.quoted.mtype || _0x1ef339.mtype;
   if (!/audio/.test(_0x1e4c20)) {
     return await _0x1ef339.send(
-      "*_Reply to the audio you want to change with_*",
+      "Reply to the audio you want to change with",
       {},
       "",
       _0x730356
