@@ -1463,7 +1463,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://api.maher-zubair.tech/download/tiktok2?";
+       const apiUrl = "https://api.vihangayt.com/downloader/tiktok?url=${encodedUrl}";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
