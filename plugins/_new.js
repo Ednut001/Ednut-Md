@@ -169,7 +169,7 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "Ednut-Md runnnig and active";
+     let _0x12a593 = "Ednut Md running";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
@@ -179,7 +179,7 @@ smd(
            thumbnail: await smdBuffer(await _0x17bb63.getpp())
          }
        }
-     }, "asta");
+     }, "ednut");
    } catch (_0x2ace2e) {}
  });
  smd({
