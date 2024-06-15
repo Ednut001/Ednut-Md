@@ -38,14 +38,14 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
+global.scan = "https://ednut-md-session.onrender.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
   ""
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || '"',
+  HANDLERS: process.env.PREFIX || '.',
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "©Ednut-Md",
