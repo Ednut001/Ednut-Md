@@ -3,10 +3,7 @@
 
 >
             <img alt="Asta" height="300" src="https://telegra.ph/file/1fce7dd9748d187fda061.jpg">
-</p>
-    
-   
-   
+       
 <p align="center">
   <a href="https://wa.me/2348102487241?text=Hi+Bro--+I+Need+Help.+I+messaged+you+from+Ednut-Md+Repo" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
