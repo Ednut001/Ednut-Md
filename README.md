@@ -2,8 +2,7 @@
 <p align="center"> Introducing Ednut Md, It is simple and easy to use. </p>
 
 >
-    <img alt="Suhail docs" height="300" src="https://telegra.ph/file/1fce7dd9748d187fda061.jpg">
-  </a>
+            <img alt="Asta" height="300" src="https://telegra.ph/file/1fce7dd9748d187fda061.jpg">
 </p>
     
    
