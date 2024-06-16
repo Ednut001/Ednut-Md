@@ -6,13 +6,13 @@
 </p>
 <p align="center">
 <a href="https://github.com/Ednut001"><img title="Author" src="https://img.shields.io/badge/Ednut001-black?style=for-the-badge&logo=Github"></a> <a href="https://whatsapp.com/channel/0029VaZAY2P4yltOvNaegY2w"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/2348102487241"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://chat.whatsapp.com/EgiP4a7pC6kCNXkRpcC1xA"><img title="Author" src="https://img.shields.io/badge/SUPPORT GC-black?style=for-the-badge&logo=whatsapp"></a>
 <p/>
 <p align="center">
 <a href="https://github.com/Ednut001?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Ednut001?label=Followers&style=social"></a>
 <a href="https://github.com/Ednut001/Ednut-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Ednut001/Ednut-Md?&style=social"></a>
 <a href="https://github.com/Ednut001/Ednut-Md/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Ednut001/Ednut-Md?style=social"></a>
 <a href="https://github.com/Ednut001/Ednut-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Ednut001/Ednut-Md?label=Watching&style=social"></a>
-<a href="https://chat.whatsapp.com/EgiP4a7pC6kCNXkRpcC1xA"><img title="Author" src="https://img.shields.io/badge/SUPPORT GC-black?style=for-the-badge&logo=whatsapp"></a>
 </p>
 
 ####  
