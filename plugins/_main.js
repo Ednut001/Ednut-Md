@@ -77,7 +77,7 @@ async function aiResponce(_0x109acf, _0xf00650, _0x2728a0 = "") {
       });
       const _0x26c61c = await _0x3e1043[_0x242f00(239)]();
       if (!_0x26c61c[_0x242f00(240)] || _0x26c61c[_0x242f00(240)][_0x242f00(265)] === 0) {
-        _0x2d78d9 = "*Your api key is error input a ChatGPT API Key*";
+        _0x2d78d9 = "Your api key is error input a ChatGPT API Key";
       } else {
         _0x2d78d9 = _0x26c61c[_0x242f00(240)][0][_0x242f00(253)][_0x242f00(269)];
       }
@@ -132,7 +132,7 @@ smd({
   try {
     return _0x1c0160.reply(await aiResponce(_0x1c0160, "chat", _0x482db1));
   } catch (_0x4adf95) {
-    await _0x1c0160.error(_0x4adf95 + "\n\ncommand: chat", _0x4adf95, "*_no responce from chatbot, sorry!!_*");
+    await _0x1c0160.error(_0x4adf95 + "\n\ncommand: chat", _0x4adf95, "couldn't fetch responce from chatbot, sorry");
   }
 });
 smd({
@@ -155,14 +155,14 @@ smd({
       }
     } catch {}
     if (Config.OPENAI_API_KEY == "" || !Config.OPENAI_API_KEY || !("" + Config.OPENAI_API_KEY).startsWith("sk")) {
-      return _0x5cb388.reply("```You Dont Have OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var```");
+      return _0x5cb388.reply("install a OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var");
     }
     if (!_0x302ad5) {
       return _0x5cb388.reply("Hey there! " + _0x5cb388.senderName + ". How are you doing these days?");
     }
     return _0x5cb388.send(await aiResponce(_0x5cb388, "gpt", _0x302ad5));
   } catch (_0x2ef914) {
-    await _0x5cb388.error(_0x2ef914 + "\n\ncommand: gpt", _0x2ef914, "*_no responce from chatgpt, sorry!!_*");
+    await _0x5cb388.error(_0x2ef914 + "\n\ncommand: gpt", _0x2ef914, "responce error from chatgpt, sorry!!");
   }
 });
 smd({
@@ -182,7 +182,7 @@ smd({
     if (_0x4743c3 && _0x4743c3.status && _0x4743c3.result) {
       return await _0x42b3b8.send(_0x4743c3.result);
     } else {
-      await _0x42b3b8.send("*_Error while getting gpt responce!!_*");
+      await _0x42b3b8.send("couldn't get response from gpt");
     }
   } catch (_0x70fc81) {
     await _0x42b3b8.error(_0x70fc81 + "\n\ncommand: fgpt", _0x70fc81, "*_no responce from chatgpt, sorry!!_*");
@@ -198,7 +198,7 @@ smd({
 }, async (_0x21be87, _0x17d498) => {
   try {
     if (!_0x17d498) {
-      return await _0x21be87.reply("*Give Me A Query To Get Dall-E Reponce?*");
+      return await _0x21be87.reply("Give Me A Query To Get Dall-E Reponce?");
     }
     const _0x27bd9a = "https://gurugpt.cyclic.app/dalle?prompt=" + encodeURIComponent(_0x17d498);
     try {
@@ -212,7 +212,7 @@ smd({
       console.log("ERROR IN DALLE RESPONCE FROM API GURUGPT\n", _0x5cee92);
     }
     if (Config.OPENAI_API_KEY == "" || !Config.OPENAI_API_KEY || !("" + Config.OPENAI_API_KEY).startsWith("sk")) {
-      return _0x21be87.reply("```You Dont Have OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var```");
+      return _0x21be87.reply("You Dont Have OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var");
     }
     return await _0x21be87.bot.sendMessage(_0x21be87.chat, {
       image: {
@@ -235,7 +235,7 @@ smd({
   try {
     let _0x2968fd = _0x3700d4 || _0x9bac01.reply_text;
     if (!_0x2968fd) {
-      return await _0x9bac01.reply("*Give Me A Query To Get imagination?*");
+      return await _0x9bac01.reply("let me know what to imaine eg: imagine the future");
     }
     let _0x24d5e9 = false;
     try {
@@ -249,7 +249,7 @@ smd({
       await Draw(_0x2968fd || _0x9bac01.reply_text).then(_0x1f03a3 => {
         _0x9bac01.bot.sendMessage(_0x9bac01.chat, {
           image: _0x1f03a3,
-          caption: "*[IMAGININATION]:* ```" + _0x2968fd + " ```" + (_0x24d5e9 ? "\n\n*[RESPONCE]:* ```" + _0x24d5e9 + "``` \n" : "") + "  \n " + Config.caption + " "
+          caption: "[VIVID IMAGININATION]: " + _0x2968fd + " " + (_0x24d5e9 ? "\n\n*[RESPONCE]:* ```" + _0x24d5e9 + "``` \n" : "") + "  \n " + Config.caption + " "
         });
       });
       return;
@@ -257,13 +257,13 @@ smd({
       console.log("ERROR IN IMAGINE RESPONCE FROM IMAGINE API n", _0x45726b);
     }
     if (Config.OPENAI_API_KEY == "" || !Config.OPENAI_API_KEY || !("" + Config.OPENAI_API_KEY).startsWith("sk")) {
-      return _0x9bac01.reply("```You Dont Have OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var```");
+      return _0x9bac01.reply("you Dont Have OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var");
     }
     return await _0x9bac01.bot.sendMessage(_0x9bac01.chat, {
       image: {
         url: await aiResponce(_0x9bac01, "dalle", _0x2968fd)
       },
-      caption: "*---Your DALL-E Result---*\n" + Config.caption
+      caption: "Result from DALL-E\n" + Config.caption
     });
   } catch (_0x5d8080) {
     await _0x9bac01.error(_0x5d8080 + "\n\ncommand: imagine", _0x5d8080, "*_No responce from Server side, Sorry!!_*");
@@ -280,7 +280,7 @@ smd({
   try {
     let _0x5e79d4 = _0xe79cfd || _0x39716c.reply_text;
     if (!_0x5e79d4) {
-      return await _0x39716c.reply("*Give Me A Query To Get imagination?*");
+      return await _0x39716c.reply("Give Me A Query To Get imagination?");
     }
     const _0x14515f = "https://gurugpt.cyclic.app/dalle?prompt=" + encodeURIComponent(_0x5e79d4 + " \nNOTE: Make sure to looks like imagination");
     let _0x5d0b6a = false;
