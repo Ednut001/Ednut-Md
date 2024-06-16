@@ -59,7 +59,7 @@ Make Sure Run this on a Heroku Teams Not Personal Heroku, I recommed using it Ec
 
 2. Deploy on Koyeb
    <br>
-   <p align="center"><a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/Ednut001/Ednut-Md&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=2348102487241&env[MONGODB_URI]&&env[OWNER_NAME]=Ednut&env[KOYEB_API]&env[PREFIX]=.&env[WAPRESENCE]&env[AUTO_READ_STATUS]=false&env[DISABLE_PM]=false&env[PACK_AUTHER]=whatsapp+bot&env[PACK_NAME]=Ednut+MD&env[STYLE]=0&env[MODE]=private&env[READ_MESSAGE]=false&env[THEME]=Whatsappbot&env[WARN_COUNT]=3&env[BLOCK_JID]=null&env[TIME_ZONE]=Africa/Lagos&name=Ednut-md&env[KOYEB_NAME]=Ednut-md&env[SUDO]=null&env[THUMB_IMAGE]=https://telegra.ph/file/1fce7dd9748d187fda061.jpg"> <img src="https://img.shields.io/badge/Koyeb account-blue?style=for-the-badge&logo=koyeb" width="220" height="38.45"/></a></p>
+   <p align="center"><a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/Ednut001/Ednut-Md&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=2348102487241&env[MONGODB_URI]&&env[OWNER_NAME]=Ednut&env[KOYEB_API]&env[PREFIX]=.&env[WAPRESENCE]&env[AUTO_READ_STATUS]=false&env[DISABLE_PM]=false&env[PACK_AUTHER]=whatsapp+bot&env[PACK_NAME]=Ednut+MD&env[STYLE]=0&env[MODE]=private&env[READ_MESSAGE]=false&env[THEME]=Whatsappbot&env[WARN_COUNT]=3&env[BLOCK_JID]=null&env[TIME_ZONE]=Africa/Lagos&name=Ednut-md&env[KOYEB_NAME]=Ednut-md&env[SUDO]=null&env[THUMB_IMAGE]=https://telegra.ph/file/1fce7dd9748d187fda061.jpg"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" width="380" height="38.45""/></a></p>
 
 #### DEPLOY TO RAILWAY
 
