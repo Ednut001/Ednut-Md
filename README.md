@@ -12,6 +12,7 @@
 <a href="https://github.com/Ednut001/Ednut-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Ednut001/Ednut-Md?&style=social"></a>
 <a href="https://github.com/Ednut001/Ednut-Md/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Ednut001/Ednut-Md?style=social"></a>
 <a href="https://github.com/Ednut001/Ednut-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Ednut001/Ednut-Md?label=Watching&style=social"></a>
+<a href="https://chat.whatsapp.com/EgiP4a7pC6kCNXkRpcC1xA"><img title="Author" src="https://img.shields.io/badge/SUPPORT GC-black?style=for-the-badge&logo=whatsapp"></a>
 </p>
 
 ####  
