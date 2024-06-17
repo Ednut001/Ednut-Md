@@ -917,7 +917,7 @@ smd(
          );
        }
        let video = await astroJson(
-         "https://api-smd-1.vercel.app=" + query
+         "https://api-smd.onrender.com/api/fbdown?url=" + query
        );
        if (!video || !video.status) {
          return await message.reply("Invalid Video URL");
@@ -963,7 +963,7 @@ smd(
          );
        }
        let video = await astroJson(
-         "https://api-smd-1.vercel.app" + query
+         "https://api-smd.onrender.com/api/fbdown?url=" + query
        );
        if (!video || !video.status) {
          return await message.reply("Invalid Video URL");
@@ -1197,7 +1197,7 @@ smd(
    desc: "text to speech.",
    category: "downloader",
    filename: __filename,
-   use: "<Hii,this is Ednut>"
+   use: "<Hii,this is Asta>"
  }, async (_0x55aba2, _0x56da6b) => {
    try {
      let _0x204f81 = _0x55aba2.reply_text ? _0x55aba2.reply_text : _0x56da6b;
@@ -1463,7 +1463,7 @@ smd(
          );
        }
  
-       const apiUrl = "api_smd+'/api/ttdl2?url";
+       const apiUrl = "https://api-smd.onrender.com/api/ttdl2";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1505,13 +1505,13 @@ smd(
          );
        }
  
-       const apiUrl = `api_smd+'/api/ttdl2?url=${encodeURIComponent(
+       const apiUrl = `https://api.maher-zubair.tech/download/tiktok?url=${encodeURIComponent(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
  
        if (response.status !== 200) {
-         return await message.reply(`Error: ${response.result}`);
+         return await message.reply(`*Error: ${response.result}*`);
        }
  
        const videoUrl = response.result;
