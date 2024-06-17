@@ -1451,7 +1451,7 @@ smd(
  
        if (!url) {
          return await message.reply(
-           `kindly, Provide me tiktok Video Url*\nEg ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531`
+           `kindly, Provide me tiktok Video Url*\nEg ${prefix}tiktok https://www.tiktok/`
          );
        }
  
@@ -1463,7 +1463,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://api_smd+'/api/ttdl2?";
+       const apiUrl = "https://aemt.me/download/tiktokdl";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1505,7 +1505,7 @@ smd(
          );
        }
  
-       const apiUrl = `https://api_smd+'/api/ttdl2?url=${encodeURIComponent(
+       const apiUrl = `https://aemt.me/download/tiktokdlurl=${encodeURIComponent(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
