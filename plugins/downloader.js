@@ -1463,7 +1463,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://api-smd-1.vercel.app";
+       const apiUrl = "api_smd+'/api/ttdl2?url";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1505,13 +1505,13 @@ smd(
          );
        }
  
-       const apiUrl = `https://api.maher-zubair.tech/download/tiktok?url=${encodeURIComponent(
+       const apiUrl = `api_smd+'/api/ttdl2?url=${encodeURIComponent(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
  
        if (response.status !== 200) {
-         return await message.reply(`*Error: ${response.result}*`);
+         return await message.reply(`Error: ${response.result}`);
        }
  
        const videoUrl = response.result;
