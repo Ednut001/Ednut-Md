@@ -28,5 +28,5 @@ async( message, text) => {
         if(!bots || !bots.autoreaction || bots.autoreaction==="false") return
         else if (bots.autoreaction === 'true' || (icmd && bots.autoreaction === 'cmd') ) {let emokis = emojis[Math.floor(Math.random() * (emojis.length))];await react(msg,emokis)}
         else if (bots.autoreaction === 'all') {var mokis = mojis[Math.floor(Math.random() * (mojis.length))]; await react(msg,mokis) }
-    }catch(e){console.log("error in auto reatcion : " , e)}
+    }catch(e){console.log("error in auto reaction : " , e)}
 })
