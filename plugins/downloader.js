@@ -1345,7 +1345,7 @@ smd(
    return false;
  }
  smd({
-   pattern: "play",
+   pattern: "play2",
    alias: ["music"],
    desc: "Sends info about the query(of youtube video/audio).",
    category: "downloader",
@@ -1377,7 +1377,7 @@ smd(
             }
          },
         );
-     
+ });
      /*async (_0x54463e, _0x1f76d0) => {
    try {
      let _0x25d045 = _0x1f76d0 ? _0x1f76d0 : _0x54463e.reply_text;
@@ -1695,7 +1695,7 @@ smd(
  );
  smd({
    pattern: "song",
-   alias: ["audio"],
+   alias: ["play"],
    desc: "Downloads audio from youtube.",
    category: "downloader",
    filename: __filename,
