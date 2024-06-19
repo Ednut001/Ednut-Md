@@ -1352,10 +1352,11 @@ smd(
    filename: __filename,
    use: "<faded-Alan walker.>"
  }, async(message, query) => {
+      if(!query) { return await message.reply("Provide a song title please") }
         const YT = require('../lib/ytdl-core');
         const yts = require('youtube-yts');
         const ffmpeg = require('fluent-ffmpeg');
-        let search = await yts(text);
+        let search = await yts(query);
         let result = search.videos[0];
         const ytmp3play = await YT.mp3(result.url);
         let thumbnailUrl = result.thumbnail;
@@ -2277,9 +2278,3 @@ smd(
      console[_0x38a391(217)](_0x4bcd8f);
    }
  });
- /*
- cmd({
-    cmdname :"downloader",
-    type: "downloader",
- }
-  */
