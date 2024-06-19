@@ -1352,7 +1352,7 @@ smd(
    filename: __filename,
    use: "<faded-Alan walker.>"
  }, async(message, query) => {
-        const YT = require('./lib/ytdl-core');
+        const YT = require('../lib/ytdl-core');
         const yts = require('youtube-yts');
         const ffmpeg = require('fluent-ffmpeg');
         let search = await yts(text);
