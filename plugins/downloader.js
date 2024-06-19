@@ -1351,7 +1351,33 @@ smd(
    category: "downloader",
    filename: __filename,
    use: "<faded-Alan walker.>"
- }, async (_0x54463e, _0x1f76d0) => {
+ }, async(message, query) => {
+        const YT = require('./lib/ytdl-core');
+        const yts = require('youtube-yts');
+        const ffmpeg = require('fluent-ffmpeg');
+        let search = await yts(text);
+        let result = search.videos[0];
+        const ytmp3play = await YT.mp3(result.url);
+        let thumbnailUrl = result.thumbnail;
+        await message.bot.sendMessage(message.chat, {
+          audio: fs.readFileSync(ytmp3play.path),
+          filename: result.title + '.mp3',
+          mimetype: 'audio/mpeg',
+          contextInfo: {
+               mentionedJid: [m.sender],
+               externalAdReply: {
+               title: "↺ |◁   II   ▷|   ♡",
+               body: `EDNUT-MD playing: ${result.title}`,
+               thumbnailUrl: thumbnailUrl,
+               sourceUrl: "https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K",
+               mediaType: 1,
+               renderLargerThumbnail: true
+               }
+            }
+         },
+        );
+     
+     /*async (_0x54463e, _0x1f76d0) => {
    try {
      let _0x25d045 = _0x1f76d0 ? _0x1f76d0 : _0x54463e.reply_text;
      var _0x2e913a = _0x25d045.toLowerCase().includes("doc") ? "document" : "audio";
@@ -1397,7 +1423,7 @@ smd(
    } catch (_0x593953) {
      return _0x54463e.error(_0x593953 + "\n\ncommand: play", _0x593953, "music not Found");
    }
- });
+ });*/
  smd({
    pattern: "sound",
    desc: "Downloads ringtone.",
