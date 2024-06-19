@@ -901,7 +901,7 @@ astro_patch.cmd(
     }
   }
 );
-ednut_patch.cmd(
+astro_patch.cmd(
   {
     pattern: "eval",
     alias: ["$"],
@@ -932,7 +932,7 @@ ednut_patch.cmd(
     }
   }
 );
-ednut_patch.cmd(
+astro_patch.cmd(
   {
     pattern: "shell",
     category: "owner",
