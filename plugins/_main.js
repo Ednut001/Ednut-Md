@@ -371,7 +371,7 @@ smd({
   try {
     let _0x5ea4b8 = _0x38fb87 ? _0x38fb87 : _0x5db0de.reply_text;
     if (!_0x5ea4b8) {
-      _0x5ea4b8 = "Kindly ,Please provide text\nEg:- _.readmor text1 readmore text2_";
+      _0x5ea4b8 = "Kindly ,Please provide text\nEg:- _.readmor text1 readmore text2";
     } else {
       _0x5ea4b8 += " ";
     }
@@ -489,7 +489,7 @@ smd({
     let {
       data: _0x44f98c
     } = await axios.get("https://api.github.com/repos/Ednut001/Ednut-Md");
-    let _0x1c73f9 = ("\n Ednut-Md github stat.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "") + " forks\n  *❲❒❳ Authors:* Ednut\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/Ednut001/Ednut-Md_\n  *❲❒❳ Scan:* https://ednut-md-session-0a0c2f49bf87.herokuapp.com" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    let _0x1c73f9 = ("\n Ednut-Md github stat.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "") + " forks\n  *❲❒❳ Authors:* Ednut\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/Ednut001/Ednut-Md_\n  *❲❒❳ Scan:* " + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
     });
