@@ -12,18 +12,11 @@
         "value": "Ednut",
         "required": true
       },
-  
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME ",
         "value": "false",
         "required": false
       },
-      "USER_IMAGES": {
-        "description": "Menu Images",
-        "value": "https://telegra.ph/file/d29baa62079de1f3e9ba7.jpg",
-        "required": false
-      },
-  
       "GOODBYE": {
         "description": "put 'false' or 'true' to enable & disable GOODBYE ",
         "value": "false",
@@ -32,10 +25,6 @@
       "MENU": {
         "description": "choose 1, 2, 3",
         "value": "1"
-      },
-      "THUMB_IMAGE": {
-        "description": "Thumbnail",
-        "value": "https://telegra.ph/file/9b3a2043b0fc2eb575e9b.jpg"
       },
       "BOT_NAME": {
         "description": "Bot name here.",
