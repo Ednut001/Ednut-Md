@@ -47,7 +47,7 @@ EDNUT-MD- Simple Multi Device whatsapp bot.
 
 2. If you Have Heroku Deploy Now
     <br>
-<p align="center"><a href="gitredirec.vercel.app"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku>"/></a></p>
+<p align="center"><a href="https://gitredirec.vercel.app/"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku>"/></a></p>
 
 ```
 Make Sure Run this on a Heroku Teams Not Personal Heroku, I recommed using it Eco Dynos too.
