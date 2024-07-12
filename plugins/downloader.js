@@ -1490,7 +1490,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://aemt.me/download/tiktokdl";
+       const apiUrl = "https://api.prabath-md.tech/info";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
